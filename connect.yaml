@@ -1,6 +1,6 @@
   deployAs:
   - name: service
-    applicationType: event
+    applicationType: service
     endpoint: /service
     scripts:
       postDeploy: npm install && npm run build
